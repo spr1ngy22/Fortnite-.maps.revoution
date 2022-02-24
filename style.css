@@ -1,0 +1,59 @@
+img{
+	width: 550px;
+}
+div{
+	display: inline-block;
+	margin: 0 20px;
+	transition: 0.5s;
+}
+body{
+	text-align: center;
+}
+img{
+	width: 550px;
+	display: inline-block;
+	margin: 0 20px;
+	transition: 0.9s;
+}
+body{
+	text-align: center;
+}
+img:hover{
+	width: 570px;
+}
+div:hover{
+	background-color: rgba(129, 148, 129, 0.56);
+}
+.menu{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.menu a{
+	display: inline-block;
+	width: 5%;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	padding: 5px;
+	margin: 10px 8px;
+	font-size: 20px;
+}
+.menu:hover{
+	background-color: transparent;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
+.menu a:hover{
+	background-color: rgba(129, 148, 129, 0.56);
+	color:black;
+}
+
+
+
